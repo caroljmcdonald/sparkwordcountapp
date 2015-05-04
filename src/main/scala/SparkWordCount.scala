@@ -21,7 +21,7 @@ import org.apache.spark.SparkConf
 
 object SparkWordCount {
   def main(args: Array[String]) {
-    val sc = new SparkContext(new SparkConf().setAppName("Spark Count"))
+    val sc = new SparkContext(new SparkConf().setAppName("SparkWordCount"))
  
     // split each document into words
     val file= sc.textFile(args(0))

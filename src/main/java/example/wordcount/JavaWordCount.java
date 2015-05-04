@@ -35,7 +35,7 @@ public class JavaWordCount {
         String inputFile = args[0];
         String outputFile = args[1];
         // Create a Java Spark Context.
-        SparkConf conf = new SparkConf().setAppName("wordCount");
+        SparkConf conf = new SparkConf().setAppName("JavaWordCount");
         JavaSparkContext sc = new JavaSparkContext(conf);
         // Load our input data.
         JavaRDD<String> input = sc.textFile(inputFile);
