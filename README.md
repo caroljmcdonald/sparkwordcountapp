@@ -1,6 +1,7 @@
 # sparkwordcountapp
 
-This is an example Standalone Spark word count application, written in Java and Scala, to demonstrate How to get started with Spark and MapR 4.1. 
+This is an example Standalone Spark word count application, written in Java and Scala, to demonstrate How to get 
+started with Spark and MapR. 
 
 
 Install and fire up the Sandbox using the instructions here: http://maprdocs.mapr.com/home/SandboxHadoop/c_sandbox_overview.html. 
